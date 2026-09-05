@@ -31,9 +31,9 @@ body {
 
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 36px;
+  gap: 28px;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--line);
 }
@@ -44,11 +44,12 @@ body {
 }
 
 .portrait {
-  width: 180px;
-  max-height: 230px;
+  width: 120px;
+  max-height: 160px;
   object-fit: contain;
   display: block;
   flex: 0 0 auto;
+  margin-top: 8px;
 }
 
 h1 {
@@ -126,13 +127,13 @@ footer {
   }
 
   .hero {
-    align-items: flex-start;
-    gap: 18px;
+    gap: 14px;
   }
 
   .portrait {
-    width: 115px;
-    max-height: 155px;
+    width: 84px;
+    max-height: 110px;
+    margin-top: 4px;
   }
 
   h1 {
