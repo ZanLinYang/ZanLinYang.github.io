@@ -32,8 +32,7 @@ body {
 .hero {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 28px;
+  gap: 72px;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--line);
 }
@@ -44,12 +43,12 @@ body {
 }
 
 .portrait {
-  width: 140px;
-  max-height: 160px;
+  width: 185px;
+  height: auto;
   object-fit: contain;
   display: block;
   flex: 0 0 auto;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 h1 {
@@ -127,12 +126,11 @@ footer {
   }
 
   .hero {
-    gap: 14px;
+    gap: 18px;
   }
 
   .portrait {
-    width: 100px;
-    max-height: 135px;
+    width: 105px;
     margin-top: 4px;
   }
 
