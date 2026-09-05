@@ -44,7 +44,7 @@ body {
 }
 
 .portrait {
-  width: 120px;
+  width: 140px;
   max-height: 160px;
   object-fit: contain;
   display: block;
@@ -131,8 +131,8 @@ footer {
   }
 
   .portrait {
-    width: 84px;
-    max-height: 110px;
+    width: 100px;
+    max-height: 135px;
     margin-top: 4px;
   }
 
