@@ -30,8 +30,25 @@ body {
 }
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--line);
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.portrait {
+  width: 180px;
+  max-height: 230px;
+  object-fit: contain;
+  display: block;
+  flex: 0 0 auto;
 }
 
 h1 {
@@ -48,7 +65,7 @@ h1 {
   font-size: 1.05rem;
 }
 
-.links {
+.contact-line {
   margin: 0;
 }
 
@@ -106,6 +123,16 @@ footer {
 @media (max-width: 600px) {
   .container {
     padding-top: 42px;
+  }
+
+  .hero {
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .portrait {
+    width: 115px;
+    max-height: 155px;
   }
 
   h1 {
